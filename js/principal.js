@@ -12,7 +12,7 @@ window.addEventListener('load', function(){
 
         const logoutLink = document.getElementById('logout_link');
         logoutLink.addEventListener('click', function(){
-            alert('Saliendo de la aplicación');
+            alert('Cerrando sesión');
             logout(result.nombreUsuario);
         });
     } else {
